@@ -64,7 +64,7 @@ authorsRouter.get('/:id',function(req,res){
 
 
 //router to delete author
-authorsRouter.post('/delete', function (req, res) {
+authorsRouter.delete('/delete', function (req, res) {
 
     const id = req.body.id;  
 
